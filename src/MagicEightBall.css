@@ -1,0 +1,54 @@
+.EightBall-message {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;     /*Center text horizontally */
+    margin: 60px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    line-height: 300px;   /* Center text vertically */
+    color: white;       /*Text color */
+    font-size: 24px;
+    cursor: pointer;      /* Adjust font size as needed */
+    user-select: none;
+}
+.EightBall-header{
+    display: flex;
+    justify-content: center;
+}
+
+.EightBall-title {
+    flex-basis: 500px;
+    padding-top: 5px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.EightBall-resetBtn {
+    margin: 20px;
+    background-color: black;
+    border-radius: 50px;
+    border-width: 0;
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    padding: 0 25px;
+    transition: all 200ms;
+}
+
+.EightBall-count{
+    display:flex;
+    justify-content: space-around;
+}
+.EightBall{
+    position: absolute;
+    left: 50%;
+    top:25%;
+    transform: translate(-50%, -25%);
+    border: 2px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
